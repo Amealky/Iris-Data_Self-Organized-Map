@@ -1,0 +1,10 @@
+{
+  "iris-setosa-color": "#ff6193",
+  "iris-versicolor-color": "#00CBCB",
+  "iris-virginica-color": "#CBCB00",
+  "unknown-color": "#3C3C3C",
+  "mapWidth": 9,
+  "mapHeight": 5,
+  "learningPhases": 5000,
+  "learningRate": 0.1
+}

@@ -1,0 +1,71 @@
+.app {
+    -fx-background-color: #112531;
+}
+
+.grid-pane {
+    -fx-background-color: #112531;
+}
+
+.white-text {
+    -fx-text-fill: white;
+}
+
+.progress-indicator {
+    -fx-progress-color: #00CBCB;
+}
+
+.button {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: #f0f0f0;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-border-color: transparent;
+}
+
+.button:hover {
+    -fx-background-color: #5c5c5c;
+}
+
+.button:pressed {
+    -fx-background-color: #2c2c2c;
+}
+
+.button .text {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 0, 0, 0, 1);
+}
+
+.scroll-pane {
+    -fx-text-fill: white;
+    -fx-background-color: #0c1a23;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .scroll-bar {
+    -fx-background-color: transparent;
+    -fx-background-radius: 10px;
+}
+
+.scroll-pane .scroll-bar .thumb {
+    -fx-background-color: #19384A;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 10px;
+}
+
+.scroll-pane .scroll-bar .increment-arrow,
+.scroll-pane .scroll-bar .decrement-arrow {
+    -fx-background-color: transparent;
+    -fx-shape: "";
+    -fx-min-width: 0;
+    -fx-min-height: 0;
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+    -fx-max-width: 0;
+    -fx-max-height: 0;
+}
+
+
+.text-flow {
+    -fx-background-color: #0c1a23;
+    -fx-border-color: transparent;
+    -fx-text-fill: white;
+}
